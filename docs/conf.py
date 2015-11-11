@@ -15,6 +15,9 @@
 
 import sys
 import os
+sys.path.insert(0, os.path.abspath('..'))
+from django.conf import settings
+settings.configure()
 import shlex
 
 # If extensions (or modules to document with autodoc) are in another directory,
